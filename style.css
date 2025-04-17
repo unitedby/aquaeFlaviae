@@ -348,6 +348,34 @@ header {
 
 }
 
+.imageSection{
+    position: relative;
+}
+
+.imageSection .credits{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    z-index: 1000;
+    color: var(--grey);
+}
+
+.imageLegContainer{
+    position: relative;
+}
+
+.imageLegContainer .credits{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    z-index: 1000;
+    color: var(--grey);
+}
+
+.credits p{
+    font-size: calc(8px + 0.390625vw);
+}
+
 .imageSectionFlex {
     display: flex;
     justify-content: space-between;
