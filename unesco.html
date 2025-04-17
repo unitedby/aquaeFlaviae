@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aquae Flaviae</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/InertiaPlugin.min.js"></script>
+</head>
+
+<body>
+    <div class="geralDiv">
+        <div class="lateralDiv">
+            <header>
+                <div class="menuHeader">
+                    <div id="menuIconDesktop" class="menuIcon menuDesktop">
+                        <svg id="openMenuDesktop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.2 12.2">
+                            <defs>
+                                <style>
+                                </style>
+                            </defs>
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <g>
+                                    <line class="cls-1" x1=".6" y1=".6" x2="16.6" y2=".6" />
+                                    <line class="cls-1" x1=".6" y1="6.1" x2="16.6" y2="6.1" />
+                                    <line class="cls-1" x1=".6" y1="11.6" x2="16.6" y2="11.6" />
+                                </g>
+                            </g>
+                        </svg>
+                        <svg id="closeMenuDesktop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.51 12.51">
+                            <defs>
+                                <style>
+                                </style>
+                            </defs>
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <g>
+                                    <line class="cls-1" x1=".6" y1=".6" x2="11.91" y2="11.91" />
+                                    <line class="cls-1" x1="11.91" y1=".6" x2=".6" y2="11.91" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div id="menuItemsDesktop">
+                        <a href="index.html">
+                            <li>Início</li>
+                        </a>
+                        <a href="bemPatrimonial.html">
+                            <li>Bem Patrimonial</li>
+                        </a>
+
+                        <a href="candidatura.html">
+                            <li>Candidatura</li>
+                        </a>
+
+                        <a href="unesco.html">
+                            <li class="selected">UNESCO e Património Mundial</li>
+                        </a>
+                        <a href="contactos.html">
+                            <li>Contactos</li>
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+            <div id="logoHeader">
+                <a href="index.html"> <img id="logoEstatico" src="data/geral/logoWhite.svg"
+                        alt="Aqua Flaviae - Candidatura do Conjunto Patrimonial Romano en Aquae Flaviae (Chaves) a Património Mundial da Unesco"></a>
+            </div>
+            <div id="logoHeaderMobile">
+                <a href="index.html"> <img id="logoEstatico" src="data/geral/logo.svg"
+                        alt="Aqua Flaviae - Candidatura do Conjunto Patrimonial Romano en Aquae Flaviae (Chaves) a Património Mundial da Unesco"></a>
+            </div>
+        </div>
+
+
+        <main class="mainDiv">
+            <div class="section1 marginBottomDefault">
+                <div class="topDiv">
+                    <div class="h1Div">
+                        <h1>
+                            UNESCO - Organização das Nações Unidas para a Educação, a Ciência e a Cultura
+                        </h1>
+                    </div>
+                </div>
+                <div class="imageIndex marginBottomDefault">
+                    <img src="data/fotos/editadas/2024.05_CHAVES_v1.0_IMG_0197.png">
+                </div>
+            </div>
+
+
+            <div class="marginTopDouble marginBottomDefault">
+                <div class="h1Div marginBottomHalf">
+                    <h2>
+                        Lista de Património Mundial
+                    </h2>
+                </div>
+                <div class="textDiv50">
+                    <div class="div50">
+                        <p>Em 1972, a Organização das Nações Unidas para a Educação, a Ciência e a Cultura (UNESCO)
+                            adotou a Convenção para a Proteção do Património Mundial Cultural e Natural, tendo por
+                            objetivo geral a
+                            “identificação, proteção, conservação, valorização e transmissão às gerações futuras do
+                            património natural e cultural de Valor Universal Excecional”, ou seja, cujo “significado
+                            cultural e/ou natural transcende as fronteiras nacionais e é de importância comum para as
+                            gerações presentes e futuras de toda a humanidade”.</p>
+                        <div class="buttonUnesco marginTopHalf">
+                            <a href="https://whc.unesco.org/" target="_blank"><button class="button">UNESCO</button></a>
+                        </div>
+                    </div>
+                    <div class="div50">
+                        <p>Os contributos da proteção e conservação do património cultural para o “desenvolvimento
+                            sustentável” são um dos aspetos que foram reforçados posteriormente à aprovação dessa
+                            Convenção.</p>
+
+                        <div class="buttonUnesco marginTopHalf">
+                            <a href="https://whc.unesco.org/archive/convention-pt.pdf" target="_blank"><button
+                                    class="button">Convenção para a Proteção do Património Mundial</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="marginTopTriple marginBottomDefault">
+                <div class="imageIndex marginBottomDefault">
+                    <img src="data/fotos/editadas/2024.05_CHAVES_v1.0_IMG_0377.png">
+                </div>
+                <div class="textDiv">
+                    <p>Em 1976 foi criado o Comité do Património Mundial, responsável pela definição dos critérios e
+                        pela decisão de inscrição de bens na Lista do Património Mundial. Foi igualmente criado um
+                        Fundo do Património Mundial. De entre as funções essenciais do Comité do Património Mundial,
+                        sublinha-se a identificação dos bens culturais e naturais de Valor Universal Excecional a
+                        proteger ao abrigo da Convenção, com base nas Listas Indicativas e nas propostas de inscrição
+                        apresentadas pelos Estados Parte, e a inscrição desses bens na Lista do Património Mundial.
+                    </p>
+                    <p class="marginTopHalf">Portugal depositou o instrumento de ratificação da Convenção do Património
+                        Mundial, Cultural
+                        e Natural a 30 de setembro de 1980. “Os Estados Parte na Convenção são encorajados a adotar
+                        uma abordagem baseada nos direitos humanos e a garantir a participação baseada na igualdade
+                        de género de uma ampla diversidade de partes interessadas e titulares de direitos, incluindo
+                        gestores de sítios, autoridades locais e regionais, comunidades locais, povos
+                        indígenas/populações autóctones, organizações não-governamentais (ONG), outras partes
+                        interessadas e parceiros nos processos de identificação, elaboração de propostas de
+                        inscrição, gestão e proteção de bens do Património Mundial”.</p>
+                    <p class="marginTopHalf">Atualmente, a Lista de Património Mundial conta com mais de 1200 bens,
+                        culturais, naturais e mistos, distribuídos por mais de 160 países. Portugal possui hoje 17
+                        bens inscritos na Lista do Património Mundial, nas categorias cultural (16) e natural (1).
+                    </p>
+                    <div class="buttonUnesco marginTopHalf">
+                        <a href="https://whc.unesco.org/en/list/" target="_blank"><button class="button">Lista
+                                Património Mundial
+                            </button></a>
+                    </div>
+                </div>
+
+
+
+                <div class="marginTop4 marginBottomDefault">
+                    <div class="textDiv">
+                        <div class="h1Div">
+                            <h3 class="marginTopDouble marginBottomDefault bold">
+                                Organizações Consultivas do Comité do Património Mundial
+
+                            </h3>
+                        </div>
+                        <p>Para a implementação da Convenção de Proteção do Património Mundial da UNESCO, o Comité do
+                            Património Mundial é apoiado por três organizações consultivas internacionais: o ICCROM
+                            (Centro
+                            Internacional para o Estudo da Preservação e Restauro de Bens Culturais), o ICOMOS (Conselho
+                            Internacional dos Monumentos e Sítios) e a UICN (União Internacional para a Conservação da
+                            Natureza).</p>
+                        <p class="marginTopHalf">São estas organizações que aconselham em geral a aplicação da Convenção
+                            do
+                            Património Mundial e apoiam, sob diversas formas, o funcionamento do Comité do Património
+                            Mundial. ara além disso, estas três organizações analisam e pronunciam-se sobre os bens inscritos e propostos para inscrição na Lista do Património Mundial, com base numa aplicação da “Estratégia Global para uma Lista do
+                            património Mundial Representativa, Equilibrada e Credível” e estabelecendo procedimentos de
+                            consulta e de diálogo com os Estados proponentes, incluindo a mobilização de redes mundiais
+                            de
+                            especialistas.
+                        </p>
+
+                        <p class="marginTopHalf">As mesmas organizações são ainda responsáveis pela monitorização do
+                            estado
+                            de conservação dos bens inscritos na Lista, podendo realizar missões quer por solicitação do
+                            Comité do Património Mundial, quer por solicitação dos Estados parte. Examinam igualmente os
+                            pedidos de Assistência Internacional.
+                        </p>
+
+
+                        <p class="marginTopHalf">A IUCN assume a seu cargo a análise e avaliação das propostas de
+                            inscrição
+                            de Bens Naturais na Lista do património Mundial. Para além disso, é esta organização que
+                            garante
+                            a monitorização dos bens naturais inscritos na Lista e que analisa os pedidos de Assistência
+                            Internacional no que respeita ao Património Natural.</p>
+
+                        <div class="buttonUnesco marginTopHalf">
+                            <a href="https://www.iucn.org/" target="_blank"><button class="button">IUCN</button></a>
+                        </div>
+
+
+                        <p class="marginTopHalf">O ICCROM é a organização privilegiada em termos de monitorização do
+                            estado
+                            de conservação, formação e análise de pedidos de Assistência Internacional relativamente ao
+                            Património Cultural.
+                        </p>
+
+                        <div class="buttonUnesco marginTopHalf">
+                            <a href="https://www.iccrom.org/" target="_blank"><button class="button">ICCROM</button></a>
+                        </div>
+
+                        <p class="marginTopHalf">Por sua vez, o ICOMOS concentra a sua ação na avaliação das propostas
+                            de
+                            inscrição de Bens Culturais na Lista do Património Cultural, para além de apoiar também a
+                            análise de pedidos de Assistência internacional apresentados pelos Estados Parte.
+                        </p>
+
+                        <div class="buttonUnesco marginTopHalf">
+                            <a href="https://www.icomos.org/en" target="_blank"><button class="button">ICOMOS
+                                    Internacional</button></a>
+                        </div>
+
+                        <div class="buttonUnesco marginTopHalf">
+                            <a href="https://www.icomos.pt/" target="_blank"><button
+                                    class="button">ICOMOS Portugal</button></a>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="marginTop4 marginBottomDefault">
+                        <div class="textDiv">
+                            <div class="h1Div">
+                                <h2 class="marginTopDouble marginBottomDefault">
+                                    Comissão Nacional da UNESCO
+                                </h2>
+                            </div>
+                            <p>A Comissão Nacional da UNESCO (CNU) foi criada em Portugal em 1979, com a missão geral de
+                                prosseguir os fins previstos no Acto Constitutivo da Organização das Nações Unidas para
+                                a
+                                Educação, Ciência e Cultura (UNESCO), funciona no quadro do Ministério dos Negócios
+                                Estrangeiros
+                                e está sedeada no Palácio das Necessidades. De notar que a UNESCO é a única agência das
+                                Nações
+                                Unidas que dispõe desta rede de organismos nacionais de cooperação, constituída pelas
+                                Comissões
+                                Nacionais, que contribuem desta forma para a realização dos seus objetivos e para a
+                                promoção
+                                da
+                                execução do seu programa.</p>
+                            <p class="marginTopHalf"> A Comissão Nacional da Unesco Portugal é atualmente presidida pelo
+                                Embaixador José Filipe Moraes Cabral e a sua Secretária Executiva é a Dra. Rita Brasil
+                                de
+                                Brito.
+                                Para além destes dois órgãos, dispõe de um Conselho Consultivo, composto por diversos
+                                membros
+                                representantes e eleitos por diversas entidades nacionais, com competências em matéria
+                                de
+                                debate
+                                e de emissão de propostas e pareceres sobre planos de ação, programas e outras atividades
+                                de
+                                comités ou comissões criadas com objetivos específicos.</p>
+                            <p class="marginTopHalf"> Para além de atividades que desenvolve no âmbito das quatro áreas
+                                de
+                                mandato da UNESCO – educação, ciência, cultura e comunicação, esta Comissão Nacional, enquanto ponto focal nacional, é responsável pela aplicação da Convenção para a Proteção do Património
+                                Mundial,
+                                Cultural e Natural.</p>
+                            <p class="marginTopHalf"> Para além desta convenção, a CNU acompanha e promove a aplicação
+                                de
+                                outras
+                                Convenções da UNESCO na área da Cultura: Convenção Universal sobre Direito de Autor
+                                (1951,
+                                revista em 1971), Convenção para a Proteção de Bens Culturais em Caso de Conflito Armado
+                                (Convenção de Haia, 1954; protocolos em 1954 e 1999), Convenção relativa às Medidas a
+                                Adotar
+                                para Proibir e Impedir a Importação, a Exportação e a Transferência Ilícitas da
+                                Propriedade
+                                de
+                                Bens Culturais (1970), Convenção sobre a Proteção do Património Cultural Subaquático
+                                (2001),
+                                Convenção para a Salvaguarda do Património Cultural Imaterial (2003), Convenção sobre a
+                                Proteção
+                                e a Promoção da Diversidade das Expressões Culturais (2005) e Recomendação sobre a
+                                paisagem
+                                urbana histórica (2011). Todos estes tratados, que visam proteger e salvaguardar
+                                património
+                                a
+                                nível mundial, bem como apoiar a criatividade, a autoria e a dinamização de setores
+                                culturais,
+                                contribuem para a criação de um sistema de governança cultural, baseado em direitos
+                                humanos
+                                e
+                                valores comuns.</p>
+
+                            <div class="buttonUnesco marginTopHalf">
+                                <a href="https://unescoportugal.mne.gov.pt/pt/" target="_blank"><button
+                                        class="button">UNESCO Portugal</button></a>
+                            </div>
+                            <h3 class=" bold marginTopDefault">
+                                Rede Portuguesa do Património Mundial
+                            </h3>
+                            <p class="marginTopHalf">A Rede Portuguesa do Património Cultural, criada em 2014, integra
+                                os
+                                gestores
+                                dos monumentos e sítios em Portugal inscritos na Lista do Património Mundial da UNESCO e
+                                visa
+                                promover a cooperação e a partilha de experiências “através do debate de ideias sobre a
+                                gestão e
+                                reabilitação do património, do intercâmbio de conhecimentos e da discussão de questões
+                                de
+                                interesse
+                                mútuo, bem como a participação conjunta em projetos e iniciativas que gerem valor nas
+                                regiões
+                                onde
+                                se inserem e difundam o Património Mundial em Portugal e no Mundo”.
+                            </p>
+
+                            <p class="marginTopHalf">Na sua intervenção, a Rede procura contribuir para garantir que os
+                                bens
+                                mantêm o estatuto de Património Mundial, mas também que esse estatuto reconhecido
+                                internacionalmente se
+                                traduza na criação de valor, estimulando as economias locais e mobilizando as
+                                comunidades.
+                            </p>
+
+                            <div class="buttonUnesco marginTopHalf">
+                                <a href="https://www.facebook.com/rededopatrimoniomundialdeportugal"
+                                    target="_blank"><button class="button">Rede Portuguesa do Património
+                                        Mundial</button></a>
+                            </div>
+                        </div>
+
+
+
+        </main>
+    </div>
+
+
+    <footer id="footer">
+        <div>
+            <img id="logoFooter" src="data/geral/logoWhite.svg">
+        </div>
+        <div class="footerContent">
+
+            <div class="noneMobile"></div>
+            <div>
+                <p>Praça de Camões, 5400-150 Chaves</p>
+                <p>+351 276 340 500</p>
+                <p>municipio@chaves.pt</p>
+                <p>Horários gerais: 09h às 13h e das 14h às 17h</p>
+                <p>Serviços Municipais</p>
+            </div>
+            <div>
+                <p>Copyright 2024</p>
+                <p class="marginBottomHalf">© Conjunto Patrimonial <a class="italic">Aquae Flaviae</a></p>
+                <p>Design: United By</p>
+                <p>Desenvolvimento: United By<br>Quaternaire Portugal
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/mobileHeight.js"></script>
+    <script src="js/header.js"></script>
+</body>
+
+</html>

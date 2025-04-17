@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aquae Flaviae</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/InertiaPlugin.min.js"></script>
+    <link rel="stylesheet" href="flickity.css" media="screen">
+</head>
+
+<body>
+    <div class="geralDiv">
+        <div class="lateralDiv">
+            <header>
+                <div class="menuHeader">
+                    <div id="menuIconDesktop" class="menuIcon menuDesktop">
+                        <svg id="openMenuDesktop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.2 12.2">
+                            <defs>
+                                <style>
+                                </style>
+                            </defs>
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <g>
+                                    <line class="cls-1" x1=".6" y1=".6" x2="16.6" y2=".6" />
+                                    <line class="cls-1" x1=".6" y1="6.1" x2="16.6" y2="6.1" />
+                                    <line class="cls-1" x1=".6" y1="11.6" x2="16.6" y2="11.6" />
+                                </g>
+                            </g>
+                        </svg>
+                        <svg id="closeMenuDesktop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.51 12.51">
+                            <defs>
+                                <style>
+                                </style>
+                            </defs>
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <g>
+                                    <line class="cls-1" x1=".6" y1=".6" x2="11.91" y2="11.91" />
+                                    <line class="cls-1" x1="11.91" y1=".6" x2=".6" y2="11.91" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div id="menuItemsDesktop">
+                        <a href="index.html">
+                            <li class="selected">Início</li>
+                        </a>
+                        <a href="bemPatrimonial.html">
+                            <li>Bem Patrimonial</li>
+                        </a>
+
+                        <a href="candidatura.html">
+                            <li>Candidatura</li>
+                        </a>
+
+                        <a href="unesco.html">
+                            <li>UNESCO e Património Mundial</li>
+                        </a>
+                        <a href="contactos.html">
+                            <li>Contactos</li>
+                        </a>
+                        <p class="marginTopHalf"><a class="selected">PT</a>/EN</p>
+                    </div>
+                </div>
+            </header>
+
+            <div id="logoHeader">
+                <a href="index.html"> <img id="logoEstatico" src="data/geral/logoWhite.svg" alt="Aqua Flaviae - Candidatura do Conjunto Patrimonial Romano en Aquae Flaviae (Chaves) a Património Mundial da Unesco"></a>
+            </div>
+            <div id="logoHeaderMobile">
+                <a href="index.html"> <img id="logoEstatico" src="data/geral/logo.svg" alt="Aqua Flaviae - Candidatura do Conjunto Patrimonial Romano en Aquae Flaviae (Chaves) a Património Mundial da Unesco"></a>
+            </div>
+            </div>
+
+            <main class="mainDiv">
+                <div class="topDiv">
+                    <p id="titleIndexDesktop">Candidatura à Lista Indicativa do Património Mundial de Portugal<br>do Conjunto Monumental das Termas Medicinais Romanas<br>e Ponte Romana de Trajano, em <a class="bolditalic">Aquae Flaviae</a></p>
+                    <p id="titleIndexMobile">Candidatura à Lista Indicativa do Património Mundial de Portugal do Conjunto Monumental das Termas Medicinais Romanas e Ponte Romana de Trajano, em <a class="bolditalic">Aquae Flaviae</a></p>
+                </div>
+                <div class="imageIndex">
+
+                    <video id="videoIndex" autoplay loop muted>
+                        <source src="data/aquaeflaviae.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+
+                <!--Agenda-->
+                <div class="marginTopDouble">
+                    <div class="agendaDiv">
+                        <h2 class="marginTop4 marginBottomDefault">
+                            Programação<br>2024
+                        </h2>
+
+                        <div class="agendaGeneral">
+                            <!--Agenda1-->
+                            <a href="agenda.html">
+                                <div class="agenda">
+                                    <div class="agendaH1">
+                                        <h3>Dois mil anos de história para contar..</h3>
+                                        <h3 class="agendaDate">05.07.2024</h3>
+                                    </div>
+                                    <div class="agendaDetails">
+                                        <div>
+                                            <p class="marginBottomHalf">Local<br>
+                                                <span style="font-weight:bold;">Arquivo Histórico Municipal de
+                                                    Chaves</span>
+                                            </p>
+
+                                            <p class="marginBottomHalf">Horário<br>
+                                                <span style="font-weight:bold;">Qua.—Dom.</span><br>
+                                                <span style="font-weight:bold;">10h00 às 18h00</span>
+                                            </p>
+
+                                            <p class="noneMobile">São mais de 2000 anos de história local contados
+                                                através
+                                                da identidade
+                                                flaviense.<br>
+                                                Este é o mote da nova exposição de peças arqueológicas...</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="agendaArrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.79 14.79">
+                                            <defs>
+                                                <style>
+
+                                                </style>
+                                            </defs>
+                                            <g id="Layer_1-2" data-name="Layer 1">
+                                                <g id="Group_9" data-name="Group 9">
+                                                    <path id="Path_1" data-name="Path 1" class="cls-1"
+                                                        d="M3.46,3.46l10.24,10.24.08-12.41" />
+                                                    <path id="Path_2" data-name="Path 2" class="cls-1"
+                                                        d="M1,1l12.7,12.7-12.41.08" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!--Agenda2-->
+                            <a href="agenda.html">
+                                <div class="agenda">
+                                    <div class="agendaH1">
+                                        <h3>Visita orientada a exposição 'Olhares Modernos'</h3>
+                                        <h3 class="agendaDate">05.07.2024</h3>
+                                    </div>
+                                    <div class="agendaDetails">
+                                        <div>
+                                            <p class="marginBottomHalf">Local<br>
+                                                <span style="font-weight:bold;">Arquivo Histórico Municipal de
+                                                    Chaves</span>
+                                            </p>
+
+                                            <p class="marginBottomHalf">Horário<br>
+                                                <span style="font-weight:bold;">Qua.—Dom.</span><br>
+                                                <span style="font-weight:bold;">10h00 às 18h00</span>
+                                            </p>
+
+                                            <p class="noneMobile">São mais de 2000 anos de história local contados
+                                                através
+                                                da identidade
+                                                flaviense.<br>
+                                                Este é o mote da nova exposição de peças arqueológicas...</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="agendaArrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.79 14.79">
+                                            <defs>
+                                                <style>
+
+                                                </style>
+                                            </defs>
+                                            <g id="Layer_1-2" data-name="Layer 1">
+                                                <g id="Group_9" data-name="Group 9">
+                                                    <path id="Path_1" data-name="Path 1" class="cls-1"
+                                                        d="M3.46,3.46l10.24,10.24.08-12.41" />
+                                                    <path id="Path_2" data-name="Path 2" class="cls-1"
+                                                        d="M1,1l12.7,12.7-12.41.08" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!--Agenda3-->
+                            <a href="agenda.html">
+                                <div class="agenda agendaLast">
+                                    <div class="agendaH1">
+                                        <h3>Dança Contemporânea chega às Termas Romanas</h3>
+                                        <h3 class="agendaDate">31.07.2024</h3>
+                                    </div>
+                                    <div class="agendaDetails">
+                                        <div>
+                                            <p class="marginBottomHalf">Local<br>
+                                                <span style="font-weight:bold;">Arquivo Histórico Municipal de
+                                                    Chaves</span>
+                                            </p>
+
+                                            <p class="marginBottomHalf">Horário<br>
+                                                <span style="font-weight:bold;">Qua.—Dom.</span><br>
+                                                <span style="font-weight:bold;">10h00 às 18h00</span>
+                                            </p>
+
+                                            <p class="noneMobile">São mais de 2000 anos de história local contados
+                                                através
+                                                da identidade
+                                                flaviense.<br>
+                                                Este é o mote da nova exposição de peças arqueológicas...</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="agendaArrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.79 14.79">
+                                            <defs>
+                                                <style>
+
+                                                </style>
+                                            </defs>
+                                            <g id="Layer_1-2" data-name="Layer 1">
+                                                <g id="Group_9" data-name="Group 9">
+                                                    <path id="Path_1" data-name="Path 1" class="cls-1"
+                                                        d="M3.46,3.46l10.24,10.24.08-12.41" />
+                                                    <path id="Path_2" data-name="Path 2" class="cls-1"
+                                                        d="M1,1l12.7,12.7-12.41.08" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+
+
+                <!--Notícias-->
+                <div class=" marginTop4 noticiasGeral marginBottomDefault">
+                    <h2 class=" marginBottomDefault">
+                        Notícias<br>Julho de 2024
+                    </h2>
+
+                    <div class="main-gallery">
+
+                        <!--News1-->
+                        <div class="news marginBottomDefault gallery-cell" onclick="window.location.href='noticia.html';">
+                            <div class="newsImage">
+                                <img class="borderRadius" src="data/fotos/editadas/2024.05_CHAVES_v1.0_IMG_0197.png">
+                            </div>
+                            <div class="newsH1">
+                                <div class="newsH1Title">
+                                    <p class="agendaDate">19.04.2024</p>
+                                    <h3>Dia Internacional de Monumentos e Sítios assinalado em Chaves</h3>
+                                    <p>Dia Internacional de Monumentos e Sítios assinalado em Chaves com visitas
+                                        sensoriais...</p>
+                                </div>
+                                <div class="agendaArrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.79 14.79">
+                                        <defs>
+                                            <style>
+
+                                            </style>
+                                        </defs>
+                                        <g id="Layer_1-2" data-name="Layer 1">
+                                            <g id="Group_9" data-name="Group 9">
+                                                <path id="Path_1" data-name="Path 1" class="cls-1"
+                                                    d="M3.46,3.46l10.24,10.24.08-12.41" />
+                                                <path id="Path_2" data-name="Path 2" class="cls-1"
+                                                    d="M1,1l12.7,12.7-12.41.08" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--News2-->
+                        <div class="news marginBottomDefault gallery-cell" onclick="window.location.href='noticia.html';">
+                            <div class="newsImage">
+                                <img class="borderRadius" src="data/fotos/editadas/2024.05_CHAVES_v1.0_IMG_0226_2.png">
+                            </div>
+                            <div class="newsH1">
+                                <div class="newsH1Title">
+                                    <p class="agendaDate">5.02.2024</p>
+                                    <h3>Água das termas de Chaves aquece edifícios na cidade</h3>
+                                    <p>Água das termas de Chaves aquece edifícios na cidade Primeira fase da...</p>
+                                </div>
+                                <div class="agendaArrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.79 14.79">
+                                        <defs>
+                                            <style>
+
+                                            </style>
+                                        </defs>
+                                        <g id="Layer_1-2" data-name="Layer 1">
+                                            <g id="Group_9" data-name="Group 9">
+                                                <path id="Path_1" data-name="Path 1" class="cls-1"
+                                                    d="M3.46,3.46l10.24,10.24.08-12.41" />
+                                                <path id="Path_2" data-name="Path 2" class="cls-1"
+                                                    d="M1,1l12.7,12.7-12.41.08" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--News3-->
+                        <div class="news marginBottomDefault gallery-cell" onclick="window.location.href='noticia.html';">
+                            <div class="newsImage">
+                                <img class="borderRadius" src="data/fotos/editadas/2024.05_CHAVES_v1.0_IMG_0264.png">
+                            </div>
+                            <div class="newsH1">
+                                <div class="newsH1Title">
+                                    <p class="agendaDate">22.01.2024</p>
+                                    <h3>Uma procura cada vez mais elevada</h3>
+                                    <p>Uma procura cada vez mais elevada Uma procura cada vez mais elevada...</p>
+                                </div>
+                                <div class="agendaArrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.79 14.79">
+                                        <defs>
+                                            <style>
+
+                                            </style>
+                                        </defs>
+                                        <g id="Layer_1-2" data-name="Layer 1">
+                                            <g id="Group_9" data-name="Group 9">
+                                                <path id="Path_1" data-name="Path 1" class="cls-1"
+                                                    d="M3.46,3.46l10.24,10.24.08-12.41" />
+                                                <path id="Path_2" data-name="Path 2" class="cls-1"
+                                                    d="M1,1l12.7,12.7-12.41.08" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--News4-->
+                        <div class="news marginBottomDefault gallery-cell" onclick="window.location.href='noticia.html';">
+                            <div class="newsImage">
+                                <img class="borderRadius" src="data/fotos/editadas/2024.05_CHAVES_v1.0_IMG_0294_2.png">
+                            </div>
+                            <div class="newsH1">
+                                <div class="newsH1Title">
+                                    <p class="agendaDate">22.01.2024</p>
+                                    <h3>Uma procura cada vez mais elevada</h3>
+                                    <p>Uma procura cada vez mais elevada Uma procura cada vez mais elevada...</p>
+                                </div>
+                                <div class="agendaArrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.79 14.79">
+                                        <defs>
+                                            <style>
+
+                                            </style>
+                                        </defs>
+                                        <g id="Layer_1-2" data-name="Layer 1">
+                                            <g id="Group_9" data-name="Group 9">
+                                                <path id="Path_1" data-name="Path 1" class="cls-1"
+                                                    d="M3.46,3.46l10.24,10.24.08-12.41" />
+                                                <path id="Path_2" data-name="Path 2" class="cls-1"
+                                                    d="M1,1l12.7,12.7-12.41.08" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!--Visita-->
+                <div class="marginTop4 visitaDiv">
+                    <div>
+                        <h3> <span style="font-weight:bold;">Termas Romanas de Chaves</span><br>Museu</h3>
+                    </div>
+                    <div class="buttonVisitDiv">
+                        <a href="https://museutermasromanaschaves.pt/" target="_blank"><button
+                                class="button">Visitar</button></a>
+                    </div>
+                </div>
+            </main>
+
+        </div>
+
+
+        <footer id="footer">
+            <div>
+                <img id="logoFooter" src="data/geral/logoWhite.svg">
+            </div>
+            <div class="footerContent">
+    
+                <div class="noneMobile"></div>
+                <div>
+                    <p>Praça de Camões, 5400-150 Chaves</p>
+                    <p>+351 276 340 500</p>
+                    <p>municipio@chaves.pt</p>
+                    <p>Horários gerais: 09h às 13h e das 14h às 17h</p>
+                    <p>Serviços Municipais</p>
+                </div>
+                <div>
+                    <p>Copyright 2024</p>
+                    <p class="marginBottomHalf">© Conjunto Patrimonial <a class="italic">Aquae Flaviae</a></p>
+                    <p>Design: United By</p>
+                    <p>Desenvolvimento: United By<br>Quaternaire Portugal
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="js/mobileHeight.js"></script>
+        <script src="js/header.js"></script>
+        <script src="js/flickity.pkgd.min.js"></script>
+        <script src="js/index.js"></script>
+</body>
+
+</html>

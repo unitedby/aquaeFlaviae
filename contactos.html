@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aquae Flaviae</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/InertiaPlugin.min.js"></script>
+</head>
+
+<body>
+    <div class="geralDiv">
+        <div class="lateralDiv">
+            <header>
+                <div class="menuHeader">
+                    <div id="menuIconDesktop" class="menuIcon menuDesktop">
+                        <svg id="openMenuDesktop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.2 12.2">
+                            <defs>
+                                <style>
+                                </style>
+                            </defs>
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <g>
+                                    <line class="cls-1" x1=".6" y1=".6" x2="16.6" y2=".6" />
+                                    <line class="cls-1" x1=".6" y1="6.1" x2="16.6" y2="6.1" />
+                                    <line class="cls-1" x1=".6" y1="11.6" x2="16.6" y2="11.6" />
+                                </g>
+                            </g>
+                        </svg>
+                        <svg id="closeMenuDesktop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.51 12.51">
+                            <defs>
+                                <style>
+                                </style>
+                            </defs>
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <g>
+                                    <line class="cls-1" x1=".6" y1=".6" x2="11.91" y2="11.91" />
+                                    <line class="cls-1" x1="11.91" y1=".6" x2=".6" y2="11.91" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div id="menuItemsDesktop">
+                        <a href="index.html">
+                            <li>Início</li>
+                        </a>
+                        <a href="bemPatrimonial.html">
+                            <li>Bem Patrimonial</li>
+                        </a>
+
+                        <a href="candidatura.html">
+                            <li>Candidatura</li>
+                        </a>
+
+                        <a href="unesco.html">
+                            <li>UNESCO e Património Mundial</li>
+                        </a>
+                        <a href="contactos.html">
+                            <li class="selected">Contactos</li>
+                        </a>
+                        <p class="marginTopHalf">PT/EN</p>
+                    </div>
+                </div>
+
+                <div class="menuMobile">
+
+                </div>
+
+                <div id="menuIconMobile" class="menuIcon">
+                    <img src="data/geral/menu.svg">
+                </div>
+            </header>
+
+            <div id="logoHeader">
+                <a href="index.html"> <img id="logoEstatico" src="data/geral/logoWhite.svg" alt="Aqua Flaviae - Candidatura do Conjunto Patrimonial Romano en Aquae Flaviae (Chaves) a Património Mundial da Unesco"></a>
+            </div>
+            <div id="logoHeaderMobile">
+                <a href="index.html"> <img id="logoEstatico" src="data/geral/logo.svg" alt="Aqua Flaviae - Candidatura do Conjunto Patrimonial Romano en Aquae Flaviae (Chaves) a Património Mundial da Unesco"></a>
+            </div>
+        </div>
+
+
+        <main class="mainDiv">
+            <div class="section1 marginBottomDefault">
+                <div class="marginBottomDouble">
+                    <h1>
+                        Contactos
+                    </h1>
+                </div>
+
+
+                <div class="textDiv50">
+                    <div class="div50">
+                        <p><a class="bold">Contactos</a></p>
+
+                        <p class="marginTopHalf"><a class="bold">E-mail</a><br>
+                            municipio@chaves.pt
+
+                        <p class="marginTopHalf"><a class="bold">Telefone</a><br>
+                            (chamada para a rede fixa nacional)<br>
+                            +351 276 340 500</p>
+
+
+                            <p class="marginTopDefault"><a class="bold">Horário Geral</a></p>
+                            <p>09h às 13h e das 14h às 17h</p>
+                    </div>
+                    <div class="div50">
+                        <p><a class="bold">Morada</a></p>
+
+                        <p class="marginTopHalf">Praça de Camões, 5400-150 Chaves<br>
+                            +351 276 340 500</p>
+
+                        <p class="marginTopHalf"><a class="bold">Termas Medicinais Romanas De Chaves</a><br>
+                            R. Longras 26, 5400-355<br>
+                            Chaves, Vila Real</p>
+
+                            <p class="marginTopHalf"><a class="bold">Ponte de Trajano</a><br>
+                                R. Caneiro 47, 5400-501<br>
+                                 Chaves, Vila Real</p>
+                    </div>
+                </div>
+
+                <div class="marginBottomDefault marginTopDefault">
+                    <div style="position: relative; display: inline-block;">
+                        <img class="image100" id="mapaChavesDesktop" src="data/fotos/MapaChaves.png">
+                        <img class="image100" id="mapaChavesMobile" src="data/fotos/MapaChaves_Mobile.png">
+                        <div class="ellipse" id="ellipseTermas"></div>
+                        <div class="infoEllipse" id="infoEllipseTermas">
+                            <p><a class="bold">Termas Medicinais Romanas De Chaves</a><br>
+                                R. Longras 26, 5400-355<br>
+                                Chaves, Vila Real</p>
+                        </div>
+                        <div class="ellipse" id="ellipsePonte"></div>
+                        <div class="infoEllipse" id="infoEllipsePonte">
+                            <p><a class="bold">Ponte de Trajano</a><br>
+                                R. Caneiro 47, 5400-501<br>
+                                 Chaves, Vila Real</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+
+
+    <footer id="footer">
+        <div>
+            <img id="logoFooter" src="data/geral/logoWhite.svg">
+        </div>
+        <div class="footerContent">
+
+            <div class="noneMobile"></div>
+            <div>
+                <p>Praça de Camões, 5400-150 Chaves</p>
+                <p>+351 276 340 500</p>
+                <p>municipio@chaves.pt</p>
+                <p>Horários gerais: 09h às 13h e das 14h às 17h</p>
+                <p>Serviços Municipais</p>
+            </div>
+            <div>
+                <p>Copyright 2024</p>
+                <p class="marginBottomHalf">© Conjunto Patrimonial <a class="italic">Aquae Flaviae</a></p>
+                <p>Design: United By</p>
+                <p>Desenvolvimento: United By<br>Quaternaire Portugal
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script src="js/mobileHeight.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/mapa.js"></script>
+</body>
+
+</html>
